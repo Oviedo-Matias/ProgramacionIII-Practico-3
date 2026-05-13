@@ -38,12 +38,16 @@ const registrarUsuario = async(req, res) => {
         //Guardo usuario
         usuarios.push(nuevoUsuario);
 
+        console.log(nuevoUsuario);
+        console.log("Push realizado con éxito. Lista de usuarios actualizada:");
+        console.table(usuarios); // console.table queda muy bien para ver arrays de objetos
+
         await fs.writeFile(
             rutaUsuarios,
             JSON.stringify(usuarios, null, 2)
         );
 
-
+        console.log(path.dirname(__dirname));
 
         //flag
         res.status(201).json({
