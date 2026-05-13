@@ -46,16 +46,21 @@ Para mantener el repositorio organizado entre los seis, utilizamos la estrategia
     ├── package.json                        
     │── .gitignore  
     │── controllers/
-    │   ├── serviciosController.js                
+    │   ├── serviciosController.js
+    │   ├── equipoController.js
+    │   ├── perfilController.js
     │   └── autorizacionController.js
     │── data/
     │   ├── servicios.json
     │   ├── serviciosDetalle.json
+    │   ├── equipo.json
     │   └── usuarios.json
     │── models/
     │   └── server.js
     │── routes/
     │   ├── serviciosRoutes.js
+    │   ├── equipoRoutes.js 
+    │   ├── perfilRoutes.js 
     │   └── autorizacionRoutes.js 
     ├── ROADMAP.md              # Hoja de ruta y division de tareas
     └── README.md               # Documentacion general
