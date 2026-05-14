@@ -2,25 +2,105 @@
   {
     "id": 1,
     "nombre": "Pepe Argento",
-    "email": "pepeargento@ejemplo.com",
+    "email": "pepeargento@argento.com",
     "password": "123",
     "fechaRegistro": "Miembro desde el 26 de mayo de 2024",
     "imagen": "../assets/img/perfil-placeholder.png",
     "pedidos": [
       {
-        "titulo": "Desarrollo de App Mobile",
+        "titulo": "Desarrollo Movil",
         "imagen": "../assets/img/servicios_img/img_desarrollo_mobile.jpg",
         "estado": "Entregado el 10/04/2026"
       },
       {
-        "titulo": "Auditoría de Seguridad",
+        "titulo": "Seguridad y auditorias",
         "imagen": "../assets/img/servicios_img/img_seguridad_auditorias.jpg",
         "estado": "En proceso"
       },
       {
-        "titulo": "Migración a Cloud",
+        "titulo": "Soluciones Cloud",
         "imagen": "../assets/img/servicios_img/img_soluciones_cloud.jpg",
         "estado": "Pendiente de pago"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Moni Argento",
+    "email": "cafecitoparati@argento.com",
+    "password": "123",
+    "fechaRegistro": "Miembro desde el 02 de enero de 2025",
+    "imagen": "../assets/img/perfil-placeholder.png",
+    "pedidos": [
+      {
+        "titulo": "Consultoria IT",
+        "imagen": "../assets/img/servicios_img/image_test.jpg",
+        "estado": "Finalizado"
+      },
+      {
+        "titulo": "Software a medida",
+        "imagen": "../assets/img/servicios_img/img_software.jpg",
+        "estado": "En proceso"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Lionel Messi",
+    "email": "elcapitan@messi.com",
+    "password": "123",
+    "fechaRegistro": "Miembro desde el 18 de diciembre de 2022",
+    "imagen": "../assets/img/perfil-placeholder.png",
+    "pedidos": [
+      {
+        "titulo": "Desarrollo Web",
+        "imagen": "../assets/img/servicios_img/img_desarrollo_web.jpg",
+        "estado": "Completado"
+      },
+      {
+        "titulo": "Bases de datos",
+        "imagen": "../assets/img/servicios_img/img_database.jpg",
+        "estado": "En proceso"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Marta Minujín",
+    "email": "arte@minujin.com",
+    "password": "123",
+    "fechaRegistro": "Miembro desde el 10 de marzo de 2026",
+    "imagen": "../assets/img/perfil-placeholder.png",
+    "pedidos": [
+      {
+        "titulo": "Software a medida",
+        "imagen": "../assets/img/servicios_img/img_software.jpg",
+        "estado": "Iniciado"
+      },
+      {
+        "titulo": "Actualizaciones de sistemas",
+        "imagen": "../assets/img/servicios_img/image_test.jpg",
+        "estado": "Pendiente"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Ricardo Fort",
+    "email": "maiami@fort.com",
+    "password": "123",
+    "fechaRegistro": "Miembro desde el 25 de noviembre de 2023",
+    "imagen": "../assets/img/perfil-placeholder.png",
+    "pedidos": [
+      {
+        "titulo": "Automatizacion de procesos",
+        "imagen": "../assets/img/servicios_img/img_software.jpg",
+        "estado": "Finalizado"
+      },
+      {
+        "titulo": "Bases de datos",
+        "imagen": "../assets/img/servicios_img/img_database.jpg",
+        "estado": "En mantenimiento"
       }
     ]
   }
