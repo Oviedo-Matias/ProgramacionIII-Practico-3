@@ -1,3 +1,7 @@
+const fs = require('fs/promises');
+const path = require('path');
+const rutaUsuarios = path.join(__dirname, '../data/usuarios.json');
+
 const crearPedido = async (req, res) => {
     try {
         const nuevoPedidoInfo = req.body;
@@ -8,6 +12,10 @@ const crearPedido = async (req, res) => {
         const index = usuarios.findIndex(u => u.email === nuevoPedidoInfo.usuarioEmail);
 
         if (index !== -1) {
+            // Si el usuario no tiene la propiedad 'pedidos' (es undefined), la creamos como array vacío
+            if (!usuarios[index].pedidos || !Array.isArray(usuarios[index].pedidos)) {
+                usuarios[index].pedidos = [];
+            }
             // Mapeo de value del select, nombre para mostrar y nombre de la imagen
             const infoServicios = {
                 "web": { nombre: "Desarrollo Web", img: "img_desarrollo_web.jpg" },
