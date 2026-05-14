@@ -3,7 +3,7 @@
     "id": 1,
     "nombre": "Pepe Argento",
     "email": "pepeargento@argento.com",
-    "password": "pepe123",
+    "password": "123",
     "fechaRegistro": "Miembro desde el 26 de mayo de 2024",
     "imagen": "../assets/img/perfil-placeholder.png",
     "pedidos": [
@@ -28,18 +28,18 @@
     "id": 2,
     "nombre": "Moni Argento",
     "email": "cafecitoparati@argento.com",
-    "password": "moni123",
+    "password": "123",
     "fechaRegistro": "Miembro desde el 02 de enero de 2025",
     "imagen": "../assets/img/perfil-placeholder.png",
     "pedidos": [
       {
         "titulo": "Consultoria IT",
-        "imagen": "../assets/img/servicios_img/img_consultoria.jpg",
+        "imagen": "../assets/img/servicios_img/image_test.jpg",
         "estado": "Finalizado"
       },
       {
-        "titulo": "Mantenimiento de sistemas",
-        "imagen": "../assets/img/servicios_img/img_soporte.jpg",
+        "titulo": "Software a medida",
+        "imagen": "../assets/img/servicios_img/img_software.jpg",
         "estado": "En proceso"
       }
     ]
@@ -48,7 +48,7 @@
     "id": 3,
     "nombre": "Lionel Messi",
     "email": "elcapitan@messi.com",
-    "password": "messi123",
+    "password": "123",
     "fechaRegistro": "Miembro desde el 18 de diciembre de 2022",
     "imagen": "../assets/img/perfil-placeholder.png",
     "pedidos": [
@@ -58,8 +58,8 @@
         "estado": "Completado"
       },
       {
-        "titulo": "Servicios de Inteligencia Artificial",
-        "imagen": "../assets/img/servicios_img/img_ia.jpg",
+        "titulo": "Bases de datos",
+        "imagen": "../assets/img/servicios_img/img_database.jpg",
         "estado": "En proceso"
       }
     ]
@@ -68,19 +68,19 @@
     "id": 4,
     "nombre": "Marta Minujín",
     "email": "arte@minujin.com",
-    "password": "marta123",
+    "password": "123",
     "fechaRegistro": "Miembro desde el 10 de marzo de 2026",
     "imagen": "../assets/img/perfil-placeholder.png",
     "pedidos": [
       {
-        "titulo": "Diseño UX/UI",
-        "imagen": "../assets/img/servicios_img/img_diseno_ux.jpg",
-        "estado": "Pendiente de revisión"
+        "titulo": "Software a medida",
+        "imagen": "../assets/img/servicios_img/img_software.jpg",
+        "estado": "Iniciado"
       },
       {
-        "titulo": "Software a medida",
-        "imagen": "../assets/img/servicios_img/img_software_medida.jpg",
-        "estado": "Iniciado"
+        "titulo": "Actualizaciones de sistemas",
+        "imagen": "../assets/img/servicios_img/image_test.jpg",
+        "estado": "Pendiente"
       }
     ]
   },
@@ -88,24 +88,19 @@
     "id": 5,
     "nombre": "Ricardo Fort",
     "email": "maiami@fort.com",
-    "password": "fort123",
+    "password": "123",
     "fechaRegistro": "Miembro desde el 25 de noviembre de 2023",
     "imagen": "../assets/img/perfil-placeholder.png",
     "pedidos": [
       {
         "titulo": "Automatizacion de procesos",
-        "imagen": "../assets/img/servicios_img/img_automatizacion.jpg",
+        "imagen": "../assets/img/servicios_img/img_software.jpg",
         "estado": "Finalizado"
       },
       {
         "titulo": "Bases de datos",
-        "imagen": "../assets/img/servicios_img/img_bases_datos.jpg",
+        "imagen": "../assets/img/servicios_img/img_database.jpg",
         "estado": "En mantenimiento"
-      },
-      {
-        "titulo": "Analisis y solucion de bugs",
-        "imagen": "../assets/img/servicios_img/img_bugs.jpg",
-        "estado": "Pendiente"
       }
     ]
   }
